@@ -1,14 +1,11 @@
 package leetcode;
 
-
-import java.util.Arrays;
-
 public class LeetCode {
 
     public static void main(String[] args) {
 
-        String boxes = "110";
+        String n = "8427547507057092842349234";
 
-        System.out.println(Arrays.toString((new MinimumNumberOfOperationsToMoveAllBallsToEachBox()).minOperations(boxes)));
+        System.out.println((new PartitioningIntoMinimumNumberOfDeciBinaryNumbers()).minPartitions(n));
     }
 }
