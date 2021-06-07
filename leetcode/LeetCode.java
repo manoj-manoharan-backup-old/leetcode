@@ -1,13 +1,12 @@
 package leetcode;
 
-import java.util.Arrays;
+import leetcode.curated75.ContainsDuplicate;
+
 
 public class LeetCode {
 
     public static void main(String[] args) {
-
-        int[] queries = {7,5,5,8,3}; int m = 8;
-
-        System.out.println(Arrays.toString((new QueriesOnAPermutationWithKey()).processQueries(queries, m)));
+        int[] nums = {1,1,1,3,3,4,3,2,4,2};
+        System.out.println((new ContainsDuplicate()).containsDuplicate(nums));
     }
 }
